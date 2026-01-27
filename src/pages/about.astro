@@ -1,0 +1,75 @@
+---
+import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import Layout from '../layouts/BlogPost.astro';
+const today = new Date();
+---
+
+<Layout
+	title="About Me"
+	description="My resume and list of skills."
+	pubDate={today}
+	heroImage={AboutHeroImage}
+>
+	<h4>
+		Resume:
+	</h4>
+	<p>
+		<h5>
+			Software Developer: Minimum Definition Computers LLC 1/25-Present, Cleveland Utah
+		</h5>
+		-Architected and Developing multiple website applications for clients utilizing Flutter web for frontend
+		development along with various backends that utilizes the Nim, Rust, Go programming languages.
+		-Current work: A new search engine offering.
+		-Several Python based scripts for file conversions, data extraction and transformation, and BASH scripts for
+		running micro services.
+</p>
+<p>
+	<h5>
+		Technology Support Specialist: State of Utah Courts 5/2023-12/2024, Cleveland Utah
+	</h5>
+
+		-Creating written and video knowledge base documentation for court computer based workflows
+		-Imaging and desktop support for court computers
+		-Use of Active Directory onprem and Azure AD
+		-Supporting Cisco IP phone, Webex calling and meetings for court end users
+		-Supporting applications for court users – everything from Google workspace, Microsoft office products, and
+		adobe suite of software offerings
+		-Remote support via Zoho assist, VNC based applications, email, and over the phone
+		-PDQ for software deployment and inventory monitoring
+		-Ticket creation and maintenance via Service Desk Plus
+		-Powershell scripting
+		-Front line support for State of Utah Courts
+</p>
+<p>
+	<h5>
+		Machine learning and data consultant: Minimum Definition Computers LLC 10/2018-5/2023, Cleveland Utah
+	</h5>
+
+	-Contract Deep Learning Research utilizing Fastai, pytorch, python along with Jupyter Notebooks to conduct
+	data manipulation, machine learning operations – have developed several models ranging from market data
+	prediction to video game streaming resource reduction
+	-Created several new indicators that raised accuracy from 56% to 87% in market data prediction.
+	-Created VBA scripts to pull data into Excel from websites without an established API.
+	-Created Python conversion scripts to convert PCAP data to use with Pandas.
+	-Created Python scripts to modify millions of images for model development
+	-Created several Python and BASH scripts for server administration.
+	-Several ZFS based data clusters.
+	-Worked with databases in excess of 30TB.
+	-Proxmox and Redhat server administration
+	-Pfsense firewall with openvpn for remote access of resources
+	-VMs hosted through AWS, GCP, Azure, and locally through Proxmox
+</p>
+<p>
+	<h5>
+		Education:
+	</h5>
+
+	Copper Hills High School – 2011 – West Jordan, Utah
+	Jordan Applied Technology Center – Trade - Computer Systems - 2011 – West Jordan, Utah
+	Salt Lake Community College – AS Biology 2013 – Taylorsville, Utah
+	Utah State University Eastern – BS Biology 2015 – Price, Utah
+</p>
+<p>
+	<h5>Skills:</h5>
+</p>
+</Layout>
